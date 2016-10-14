@@ -1,10 +1,10 @@
 
 % Add folder with custom libaries to Matlab Path (eg. let Matlab "see" them)
 addpath(genpath('~/Dropbox/Crap/matlabLibs/'));
-addpath(genpath('/Users/allan/Dropbox/DropboxDocs/Skole/Measurement and Control/matlab_libs/'));
 
 % Change default startup folder
-cd('~/Dropbox/DropboxDocs/Skole/');
+% cd('~/Dropbox/DropboxDocs/Skole/');
+% cd('~/akiraMount/ged');
 
 % set the default figure font size to be 14
 set(0, 'defaultTextFontSize', 18);
@@ -32,6 +32,8 @@ set(0, 'defaultFigureColor', [1 1 1]);
 % set(0, 'DefaultFigureColormap', gray);
 
 % set(0, 'defaulttextinterpreter', 'latex');
+
+format shortg
 
 % Fix Matlab crash on git comapare launched
 com.mathworks.comparisons.decorator.htmlreport.ComparisonHtmlComponent.useJxBrowser(false);
